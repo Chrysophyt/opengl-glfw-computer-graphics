@@ -1,0 +1,15 @@
+Compiled di Windows /w :
+- MinGW Compiler
+- GLFW untuk setup Windows dan Input.
+- GLEW untuk mendapatkan fungsi terbaru dari GPU.
+- objReader untuk membaca *.obj file. 
+
+version :
+g++ (MinGW.org GCC-8.2.0-5) 8.2.0
+GLFW 3.3
+GLEW 2.1
+objReader (Buatan Sendiri).
+
+*compile.bat berisi command line untuk melink semua libraries yang ada
+**kemungkinan besar di environment (komputer lain) tidak bisa
+***mohon .dll jangan di pindah/ ubah/ hapus karena CompGraph.exe dependant dengan dynamic lib (*.dll).
